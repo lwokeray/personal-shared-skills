@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-08-19",
+  "categories": [
+    {
+      "id": "personal-pack-01-agent-mcp-integrations",
+      "title": "AI Agent、MCP 與外部服務整合",
+      "skill_count": 9
+    },
+    {
+      "id": "personal-pack-02-ai-product-ui-design",
+      "title": "AI 產品 UI／UX 設計",
+      "skill_count": 11
+    },
+    {
+      "id": "personal-pack-03-cloud-web-platform",
+      "title": "雲端與 Web 平台",
+      "skill_count": 9
+    },
+    {
+      "id": "personal-pack-04-software-engineering-security",
+      "title": "軟體工程與安全",
+      "skill_count": 13
+    },
+    {
+      "id": "personal-pack-05-data-research-analytics",
+      "title": "資料、研究與分析",
+      "skill_count": 14
+    },
+    {
+      "id": "personal-pack-06-finance-investing",
+      "title": "財務與投資",
+      "skill_count": 13
+    },
+    {
+      "id": "personal-pack-07-hr-people-operations",
+      "title": "人資與人員營運",
+      "skill_count": 30
+    },
+    {
+      "id": "personal-pack-08-seo-content-publishing",
+      "title": "SEO、內容與出版",
+      "skill_count": 13
+    },
+    {
+      "id": "personal-pack-09-marketing-commerce-communications",
+      "title": "行銷、商務與溝通",
+      "skill_count": 14
+    },
+    {
+      "id": "personal-pack-10-documents-academic-workflows",
+      "title": "文件、學術與知識工作流",
+      "skill_count": 8
+    },
+    {
+      "id": "personal-pack-11-project-product-operations",
+      "title": "專案、產品與營運",
+      "skill_count": 11
+    },
+    {
+      "id": "personal-pack-12-email-calendar-collaboration",
+      "title": "電子郵件、行事曆與協作",
+      "skill_count": 3
+    },
+    {
+      "id": "personal-pack-13-visual-design-illustration",
+      "title": "視覺設計與插畫",
+      "skill_count": 6
+    },
+    {
+      "id": "personal-pack-14-video-audio-motion",
+      "title": "影片、音訊與動態",
+      "skill_count": 5
+    },
+    {
+      "id": "personal-pack-15-presentations-pitch-decks",
+      "title": "簡報、提案與演講",
+      "skill_count": 5
+    }
+  ]
+}

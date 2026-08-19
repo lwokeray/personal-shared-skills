@@ -2,38 +2,26 @@ from pathlib import Path
 import json
 import re
 import sys
-import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-errors = []
 catalog = json.loads((ROOT / "catalog" / "skills.json").read_text(encoding="utf-8"))
-skill_files = sorted(ROOT / record["path"] for record in catalog["records"] if record.get("path") and record.get("status") != "internal-reference")
-
-for path in skill_files:
+errors = []
+records = catalog["skills"]
+for record in records:
+    path = ROOT / record["path"]
+    if not path.exists():
+        errors.append(f"missing: {path}")
+        continue
     text = path.read_text(encoding="utf-8", errors="replace")
-    if not text.startswith("---\n"):
-        errors.append(f"{path}: invalid or missing frontmatter")
-        continue
-    end = text.find("\n---", 4)
-    if end == -1:
-        errors.append(f"{path}: unterminated frontmatter")
-        continue
-    frontmatter = text[4:end]
-    name_match = re.search(r"^name:\s*(.+)$", frontmatter, flags=re.M)
-    description_match = re.search(r"^description:\s*(.+)$", frontmatter, flags=re.M)
-    if not name_match or not description_match or not name_match.group(1).strip() or not description_match.group(1).strip():
-        errors.append(f"{path}: missing name or description in frontmatter")
-    if path.parts[-3:-2] == ("personal-metadata",) and len(text.splitlines()) >= 500:
-        errors.append(f"{path}: metadata-only SKILL.md must stay under 500 lines")
-for package in sorted((ROOT / "skills").rglob("package.skill")):
-    try:
-        with zipfile.ZipFile(package) as archive:
-            bad = archive.testzip()
-            if bad:
-                errors.append(f"{package}: corrupt member {bad}")
-    except zipfile.BadZipFile:
-        errors.append(f"{package}: invalid zip archive")
+    if not text.startswith("---\n") or "\ndescription:" not in text:
+        errors.append(f"invalid frontmatter: {path}")
+    if not re.search(r"[\u4e00-\u9fff]", record.get("description_zh_tw", "")):
+        errors.append(f"description is not Traditional Chinese: {path}")
+    if record.get("status") != "recovered-metadata-only":
+        errors.append(f"unexpected status: {path}")
+if len(records) != 164:
+    errors.append(f"expected 164 personal skills, found {len(records)}")
 if errors:
     print("\n".join(errors))
     sys.exit(1)
-print(f"validated {len(skill_files)} catalogued SKILL.md files and {len(list((ROOT / 'skills').rglob('package.skill')))} package archives")
+print(f"validated {len(records)} personal skills and Traditional Chinese descriptions")

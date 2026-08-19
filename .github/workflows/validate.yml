@@ -1,4 +1,4 @@
-name: Validate complete skills collection
+name: Validate personal skills
 
 on:
   push:
