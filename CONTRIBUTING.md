@@ -1,7 +1,13 @@
 # Contributing
 
-新增或補全技能時，請保持 `SKILL.md` 的 frontmatter 僅包含 `name` 與 `description`，並讓 description 同時說明技能用途與觸發時機。
+新增技能時，請保留可追溯的來源路徑、名稱與授權資訊。完整技能的入口應為 `SKILL.md`，並以 frontmatter 提供 `name` 與 `description`。
 
-完整技能應把核心流程放在 `SKILL.md`，把變體、schema、範例與長篇資料放在一層深度的 `references/`；重複性或脆弱操作才應放入可測試的 `scripts/`。不要複製未授權的系統提示、私有工作區內容或第三方原文。
+若技能支援多個 framework 或 runtime，請用目錄命名空間保留變體，不要以同名檔案互相覆蓋。長篇內容應透過一層深度的 `references/` 漸進載入；重複性操作才放入可測試的 `scripts/`。
 
-提交前請執行 `python scripts/validate_skills.py`，並在 `catalog/skills.json` 更新條目的 `status`、`source` 與 `description`。
+提交前請執行：
+
+```bash
+python scripts/validate_skills.py
+```
+
+同時請檢查 git diff 是否包含秘密資料、未授權第三方內容或不必要的本機路徑。
