@@ -1,0 +1,1682 @@
+{
+  "generated_at": "2026-08-19",
+  "status_definition": {
+    "recovered-metadata-only": "Only the trigger description was available in the retained local backup."
+  },
+  "skills": [
+    {
+      "name": "agent-mcp-engineering",
+      "description": "Design, build, and validate AI agents, MCP servers, and external-service tools. Use when creating or improving agent workflows, MCP integrations, tool schemas, API connectors, database access, permission boundaries, or agent reliability tests.",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/agent-mcp-engineering.md",
+      "path": "skills/agent-mcp-engineering/SKILL.md"
+    },
+    {
+      "name": "agent-ui-performance-audit",
+      "description": "Measure and improve AI website and Agent UI performance with browser evidence, Core Web Vitals, network analysis, rendering diagnostics, accessibility checks, and before/after validation. Use when an AI interface is slow, streaming feels laggy, a web app needs performance profiling, Core Web Vitals/Lighthouse analysis, or when validating the user experience of agent tools and dashboards.",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/agent-ui-performance-audit.md",
+      "path": "skills/agent-ui-performance-audit/SKILL.md"
+    },
+    {
+      "name": "agent-ui-ux-craft",
+      "description": "Design and implement distinctive, production-ready AI website and Agent UI/UX. Use when building or reshaping agent chat, copilot, generative UI, tool progress, approval, shared-state, or human-in-the-loop experiences; also use when an AI interface feels generic, opaque, unsafe, or inaccessible.",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/agent-ui-ux-craft.md",
+      "path": "skills/agent-ui-ux-craft/SKILL.md"
+    },
+    {
+      "name": "ai-app-product-ui",
+      "description": "Design and refine AI application product flows and user interfaces. Use when creating or improving an AI app, Copilot, chat experience, agent dashboard, workflow UI, or product requirements for an AI-powered feature.",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/ai-app-product-ui.md",
+      "path": "skills/ai-app-product-ui/SKILL.md"
+    },
+    {
+      "name": "ai-website-agent-uiux-explorer",
+      "description": "Discover, verify, compare, and recommend SDKs, UI frameworks, plugins, MCP servers, Agent Skills, and runtime services for AI websites and agent UI/UX. Use when users ask to find, research, assess, compare, select, or integrate resources for AI-powered websites, copilot interfaces, generative UI, agent workflows, design-to-code, CopilotKit, Cloudflare, Claude, OpenAI/GPT, Codex, or Kimi ecosystems.",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/ai-website-agent-uiux-explorer.md",
+      "path": "skills/ai-website-agent-uiux-explorer/SKILL.md"
+    },
+    {
+      "name": "automation-and-scheduling",
+      "description": "MUST read before requests involving automated execution, recurring execution, background execution, event-triggered execution, bot/agent execution, auto-updating systems, or ANY system that integrates with external APIs, synchronizes data, handles webhooks, or requires background processes — even if the primary ask is a website, web app, or bot. Use it to choose the right implementation approach before building.",
+      "category_id": "personal-pack-16-automation-operations",
+      "category": "Automation Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-16-automation-operations/references/skills/automation-and-scheduling.md",
+      "path": "skills/automation-and-scheduling/SKILL.md"
+    },
+    {
+      "name": "browser-automation-testing",
+      "description": "Test and debug browser-based web application workflows safely and reliably. Use when creating Playwright tests, validating local or authorized web UIs, inspecting dynamic DOM behavior, reproducing UI failures, or documenting browser test evidence.",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/browser-automation-testing.md",
+      "path": "skills/browser-automation-testing/SKILL.md"
+    },
+    {
+      "name": "builtin-llm-models",
+      "description": ">",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/builtin-llm-models.md",
+      "path": "skills/builtin-llm-models/SKILL.md"
+    },
+    {
+      "name": "claude-code-plugin-engineering",
+      "description": "Design, package, test, and maintain Claude Code plugins containing agents, commands, hooks, skills, MCP declarations, and plugin settings. Use when creating or modifying a Claude Code plugin, its plugin.json, slash commands, hooks, subagents, local settings, or plugin-scoped MCP integrations.",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/claude-code-plugin-engineering.md",
+      "path": "skills/claude-code-plugin-engineering/SKILL.md"
+    },
+    {
+      "name": "cloudflare-agent-runtime",
+      "description": "Build and review production AI agents on Cloudflare Workers with Agents SDK, Durable Objects, Workers bindings, Wrangler, MCP, real-time state, observability, and secure deployment. Use when creating a Cloudflare-hosted agent, stateful chat, Durable Object coordination, WebSocket app, scheduled agent workflow, Worker MCP server, or reviewing Cloudflare agent runtime code.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/cloudflare-agent-runtime.md",
+      "path": "skills/cloudflare-agent-runtime/SKILL.md"
+    },
+    {
+      "name": "cloudflare-email-delivery",
+      "description": "Design and implement secure transactional inbound or outbound email with Cloudflare Email Service, Workers, and Agents SDK. Use when adding email sending, Email Routing, inbound email handling, domain authentication, deliverability controls, or agent-driven email workflows on Cloudflare.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/cloudflare-email-delivery.md",
+      "path": "skills/cloudflare-email-delivery/SKILL.md"
+    },
+    {
+      "name": "cloudflare-sandbox-lifecycle",
+      "description": "Choose, build, migrate, and operate Cloudflare Sandbox workloads across stable and preview releases with safe code-execution boundaries. Use when working with @cloudflare/sandbox, @cloudflare/sandbox@next, sandbox sessions, terminals, files, ports, tunnels, AI code runners, or migration from stable Sandbox to the next major release.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/cloudflare-sandbox-lifecycle.md",
+      "path": "skills/cloudflare-sandbox-lifecycle/SKILL.md"
+    },
+    {
+      "name": "cloudflare-turnstile-integration",
+      "description": "Add and audit Cloudflare Turnstile bot protection with correct client rendering, server-side validation, secret handling, accessibility, abuse controls, and test coverage. Use when adding CAPTCHA, protecting forms or APIs from bots, troubleshooting Turnstile, or reviewing an existing Turnstile integration.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/cloudflare-turnstile-integration.md",
+      "path": "skills/cloudflare-turnstile-integration/SKILL.md"
+    },
+    {
+      "name": "cloudflare-zero-trust-migration",
+      "description": "Assess, plan, and safely execute Cloudflare One Zero Trust or SASE designs and migrations from legacy VPN, SWG, Zscaler, Palo Alto, or similar platforms. Use when mapping access policy, identity, device posture, Gateway, Access, Tunnel, WARP, DLP, CASB, or planning phased security migrations to Cloudflare One.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/cloudflare-zero-trust-migration.md",
+      "path": "skills/cloudflare-zero-trust-migration/SKILL.md"
+    },
+    {
+      "name": "copilotkit-agent-ui",
+      "description": "Build and integrate CopilotKit and AG-UI into a production AI website with controlled generative UI, shared state, tool rendering, human approval, and an interoperable agent backend. Use when creating a CopilotKit application, AG-UI client/backend integration, agentic chat, tool-rendered React UI, shared state, A2UI, or MCP Apps in a website project.",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/copilotkit-agent-ui.md",
+      "path": "skills/copilotkit-agent-ui/SKILL.md"
+    },
+    {
+      "name": "data-backup-restoration",
+      "description": "Official guidance for the August 2026 Manus data backup and restoration service change, including websites. Use when users ask whether they are affected, what will happen to their data or services, or how to back up or restore.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/data-backup-restoration.md",
+      "path": "skills/data-backup-restoration/SKILL.md"
+    },
+    {
+      "name": "figma-design-system-handoff",
+      "description": "Turn Figma designs and design systems into production UI through Figma MCP, design tokens, Code Connect, and visual validation. Use when a task includes a Figma URL or node, design-to-code implementation, component mapping, design-system rules, or a request to make implementation faithfully match a Figma design.",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/figma-design-system-handoff.md",
+      "path": "skills/figma-design-system-handoff/SKILL.md"
+    },
+    {
+      "name": "gws-best-practices",
+      "description": "Best practices for using the gws CLI with supported Google Workspace services (Drive, Docs, Sheets, Slides). Use when performing any operation with the gws CLI.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/gws-best-practices.md",
+      "path": "skills/gws-best-practices/SKILL.md"
+    },
+    {
+      "name": "hr-agent-routing",
+      "description": "受控 HR Agent 路由與升級。當需要讓員工服務 Agent 在一般規章回答、追問最小必要資訊、受權系統查詢、建 Case、主管核准、HR 路由與政策升級之間選擇下一步時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-agent-routing.md",
+      "path": "skills/hr-agent-routing/SKILL.md"
+    },
+    {
+      "name": "hr-agentic-ai",
+      "description": "受控 Agentic AI 人資工作流程設計。當使用者要建立或治理能查詢系統、協調任務、產出草稿、觸發 HR 流程或執行多步驟 HR agent 的方案時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-agentic-ai.md",
+      "path": "skills/hr-agentic-ai/SKILL.md"
+    },
+    {
+      "name": "hr-ai",
+      "description": "企業 HR AI 導入總覽與用例設計。當使用者要規劃、優先排序、設計或改善人資 AI 解決方案、HR Copilot、智慧招聘、員工自助服務、人才分析或 AI 營運模式時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-ai.md",
+      "path": "skills/hr-ai/SKILL.md"
+    },
+    {
+      "name": "hr-ai-adoption",
+      "description": "HR AI 採用與能力建置。當使用者要推動人資團隊、主管、招募人員或員工採用 AI 工具，設計訓練、使用規範、推廣計畫、採用指標或回饋迴路時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-ai-adoption.md",
+      "path": "skills/hr-ai-adoption/SKILL.md"
+    },
+    {
+      "name": "hr-ai-change-management",
+      "description": "HR AI 變革管理與組織影響設計。當使用者要管理 AI 導入造成的角色、流程、技能、溝通、阻力、治理或工作方式變化時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-ai-change-management.md",
+      "path": "skills/hr-ai-change-management/SKILL.md"
+    },
+    {
+      "name": "hr-ai-ethics",
+      "description": "HR AI 倫理與公平性評估。當使用者要評估人資 AI 的偏誤、透明度、可解釋性、員工影響、可近性、申訴或負責任使用原則時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-ai-ethics.md",
+      "path": "skills/hr-ai-ethics/SKILL.md"
+    },
+    {
+      "name": "hr-ai-evaluation",
+      "description": "HR AI 評估、測試與持續監測。當使用者要驗證人資 AI 的正確性、可靠性、公平性、安全性、可用性、業務價值或建立上線門檻與紅隊測試時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-ai-evaluation.md",
+      "path": "skills/hr-ai-evaluation/SKILL.md"
+    },
+    {
+      "name": "hr-ai-governance",
+      "description": "HR AI 治理、風險分級與責任設計。當使用者要制定人資 AI 政策、審核流程、權責、模型與供應商控制、事件管理或高風險用例治理時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-ai-governance.md",
+      "path": "skills/hr-ai-governance/SKILL.md"
+    },
+    {
+      "name": "hr-ai-privacy",
+      "description": "HR AI 資料隱私與敏感資料控制。當使用者要將員工、候選人、薪資、績效、健康、調查或 HRIS 資料用於 AI，或設計資料治理、存取、保留、跨境傳輸與供應商條款時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-ai-privacy.md",
+      "path": "skills/hr-ai-privacy/SKILL.md"
+    },
+    {
+      "name": "hr-analytics",
+      "description": "HR 分析、人才洞察與人力儀表板。當使用者要分析招聘、留任、流動、技能、敬業度、學習、薪酬或人力資料，建立指標、儀表板、分群或預測模型時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-analytics.md",
+      "path": "skills/hr-analytics/SKILL.md"
+    },
+    {
+      "name": "hr-automation",
+      "description": "HR 流程自動化與人工覆核設計。當使用者要自動化招聘行政、入職、HR 服務台、文件、提醒、工作流程、系統整合或人資營運任務時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-automation.md",
+      "path": "skills/hr-automation/SKILL.md"
+    },
+    {
+      "name": "hr-benefits-administration",
+      "description": "企業福利與保險管理。當使用者要設計、溝通、執行或改善員工福利、團保、津貼、彈性福利、資格、加退保、生命事件、供應商或年度續約流程時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-benefits-administration.md",
+      "path": "skills/hr-benefits-administration/SKILL.md"
+    },
+    {
+      "name": "hr-business-partner",
+      "description": "AI 時代 HR Business Partner 顧問工作法。當使用者要協助主管處理人員策略、團隊健康、組織設計、人力規劃、人才盤點、績效、員工關係或困難對話時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-business-partner.md",
+      "path": "skills/hr-business-partner/SKILL.md"
+    },
+    {
+      "name": "hr-case-approval-lifecycle",
+      "description": "HR Case、主管核准與耐久工作流生命週期。當需要讓 Agent 建立受控 HR Case、要求主管核准、等待人類事件、處理逾時與例外、或整合 HRIS／工單系統時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-case-approval-lifecycle.md",
+      "path": "skills/hr-case-approval-lifecycle/SKILL.md"
+    },
+    {
+      "name": "hr-compliance",
+      "description": "HR 合規、政策與案件風險管理。當使用者要建立、檢視或執行員工政策、勞動合規檢查、HR 稽核、案件文件、調查流程、背景查核、休假、薪資或人資 AI 合規控制時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-compliance.md",
+      "path": "skills/hr-compliance/SKILL.md"
+    },
+    {
+      "name": "hr-employee-relations",
+      "description": "企業員工關係、申訴與案件管理。當使用者要受理或處理員工衝突、申訴、行為疑慮、騷擾、歧視、報復、紀律、調查、調解、案件文件或結案追蹤時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-employee-relations.md",
+      "path": "skills/hr-employee-relations/SKILL.md"
+    },
+    {
+      "name": "hr-expense-management",
+      "description": "企業員工費用與報銷管理。當使用者要設計或執行出差、交際、交通、採購、收據、請款、審核、報銷、核銷或費用政策流程時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-expense-management.md",
+      "path": "skills/hr-expense-management/SKILL.md"
+    },
+    {
+      "name": "hr-interview-management",
+      "description": "企業面試設計與面試流程管理。當使用者要建立面試流程、面試題庫、評分卡、面試官培訓、面試排程、回饋整合或候選人決策紀錄時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-interview-management.md",
+      "path": "skills/hr-interview-management/SKILL.md"
+    },
+    {
+      "name": "hr-knowledge-management",
+      "description": "企業 HR 知識文件與員工自助服務。當使用者要建立、整理、更新或搜尋員工手冊、SOP、FAQ、表單說明、入職資料庫、HR 知識庫或版本管理流程時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-knowledge-management.md",
+      "path": "skills/hr-knowledge-management/SKILL.md"
+    },
+    {
+      "name": "hr-learning-development",
+      "description": "企業訓練、學習與職涯發展。當使用者要進行培訓需求分析、設計課程、建立學習路徑、管理必修訓練、建立 IDP、追蹤學習完成率或評估訓練成效時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-learning-development.md",
+      "path": "skills/hr-learning-development/SKILL.md"
+    },
+    {
+      "name": "hr-leave-attendance",
+      "description": "企業請假、出勤、加班與補休管理。當使用者要建立、執行或改善假別、假勤、加班申請、補休、班表、餘額、核准、異常處理或月結流程時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-leave-attendance.md",
+      "path": "skills/hr-leave-attendance/SKILL.md"
+    },
+    {
+      "name": "hr-onboarding-offboarding",
+      "description": "企業入職、試用與離職作業。當使用者要建立或執行 Preboarding、到職、30／60／90 天追蹤、IT 權限、試用期、離職通知、交接、離職面談、資產歸還或離職結算流程時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-onboarding-offboarding.md",
+      "path": "skills/hr-onboarding-offboarding/SKILL.md"
+    },
+    {
+      "name": "hr-payroll-operations",
+      "description": "企業薪資與薪資資料作業。當使用者要管理薪資週期、薪資輸入、出勤／假勤交接、異動、津貼、獎金、扣款、薪資覆核、薪資單、更正或薪資保密流程時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-payroll-operations.md",
+      "path": "skills/hr-payroll-operations/SKILL.md"
+    },
+    {
+      "name": "hr-performance-management",
+      "description": "企業績效管理與 PIP 作業。當使用者要建立目標、KPI／OKR、績效週期、主管回饋、考核表、校準會議、績效改善計畫 PIP、人才盤點或績效文件時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-performance-management.md",
+      "path": "skills/hr-performance-management/SKILL.md"
+    },
+    {
+      "name": "hr-policy-knowledge-guardrails",
+      "description": "HR 政策知識庫與防幻覺控制。當需要建立、更新、測試或治理員工規章 FAQ、HR 政策 RAG、條文引用、部分回答、政策版本與未涵蓋情境的安全升級時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-policy-knowledge-guardrails.md",
+      "path": "skills/hr-policy-knowledge-guardrails/SKILL.md"
+    },
+    {
+      "name": "hr-policy-management",
+      "description": "企業 HR 規範、員工手冊與政策生命週期管理。當使用者要起草、更新、審核、發布、解釋或稽核員工規範、行為準則、工作規則、遠距、請假、費用、福利或申訴政策時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-policy-management.md",
+      "path": "skills/hr-policy-management/SKILL.md"
+    },
+    {
+      "name": "hr-recruiting",
+      "description": "Help HR managers with end-to-end recruiting and talent acquisition. Use when asked to write or improve a job description for a role, create interview questions, screen resumes, develop employer branding, send offer letters, conduct reference checks, or any other recruiting and hiring task, or handle day-to-day recruiting tasks for a role.",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-recruiting.md",
+      "path": "skills/hr-recruiting/SKILL.md"
+    },
+    {
+      "name": "hr-recruitment-dashboard",
+      "description": "企業招募儀表板與漏斗分析。當使用者要建立、更新或解讀 ATS 招募資料、職缺進度、候選人漏斗、招募來源、招募週期、Offer、招募成本或招募品質報告時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-recruitment-dashboard.md",
+      "path": "skills/hr-recruitment-dashboard/SKILL.md"
+    },
+    {
+      "name": "hr-recruitment-operations",
+      "description": "企業人才招募營運。當使用者要建立職缺需求、招募計畫、徵才文案、候選人流程、招募溝通、Offer 流程、ATS 欄位或招募儀表板時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-recruitment-operations.md",
+      "path": "skills/hr-recruitment-operations/SKILL.md"
+    },
+    {
+      "name": "hr-reporting",
+      "description": "企業 HR 月報與管理層人力報告。當使用者要彙整、撰寫、審閱或發送人力、招募、流動、假勤、薪資、福利、學習、員工關係或合規的月度 HR 報告時使用。",
+      "category_id": "personal-pack-07-hr-people-operations",
+      "category": "Hr People Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-07-hr-people-operations/references/skills/hr-reporting.md",
+      "path": "skills/hr-reporting/SKILL.md"
+    },
+    {
+      "name": "kimi-academic-paper-reviewer",
+      "description": "當使用者以英文或中文請求「review my paper」、「simulate peer review」、「給我的論文一份同行評審」或類似表達時觸發。也可由使用者明確要求模擬審稿或評估稿件品質時啟動此技能。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-academic-paper-reviewer.md",
+      "path": "skills/kimi-academic-paper-reviewer/SKILL.md"
+    },
+    {
+      "name": "kimi-ad-creative",
+      "description": "當使用者要求產生、擴展或大量化廣告文案、標題、描述、主要文案或提到「ad copy variations」「creative testing」「generate headlines」等關鍵詞時觸發。此技能適用於需要為任一付費廣告平台快速產出或迭代廣告變體的情境。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-ad-creative.md",
+      "path": "skills/kimi-ad-creative/SKILL.md"
+    },
+    {
+      "name": "kimi-adhd-assistant",
+      "description": "當使用者請求協助整理當日/近期待辦、覺得因注意力或時間感知問題而難以啟動或專注、或表達被瑣事淹沒與拖延情形時觸發。此技能以分步、具體且易追蹤的策略回應。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-adhd-assistant.md",
+      "path": "skills/kimi-adhd-assistant/SKILL.md"
+    },
+    {
+      "name": "kimi-algorithmic-art",
+      "description": "當使用者想以種子驅動的隨機性產生 p5.js 創作並進行互動參數探索時觸發。本技能提供即時預覽、可重現性控制與匯出選項。",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/kimi-algorithmic-art.md",
+      "path": "skills/kimi-algorithmic-art/SKILL.md"
+    },
+    {
+      "name": "kimi-api-shape-explorer",
+      "description": "當使用者想為某個模組設計或比較多種 API/介面形態，或直接說「design it twice」時觸發此技能。此技能適合需要平行產生風格迥異介面方案並比較利弊的情境。",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/kimi-api-shape-explorer.md",
+      "path": "skills/kimi-api-shape-explorer/SKILL.md"
+    },
+    {
+      "name": "kimi-astro-observation-report",
+      "description": "當使用者需要為 LIGO/Virgo/KAGRA 偵測到的緊湊雙體合併事件（BNS、BBH、NSBH）撰寫觀測結果稿件時，啟動此技能以提供結構化寫作、參數估計圖形與 PRX 雙欄排版指引。此技能會聚焦於論文架構、首頁配置、統計表記與投稿前檢查項目。",
+      "category_id": "personal-pack-10-documents-academic-workflows",
+      "category": "Documents Academic Workflows",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-10-documents-academic-workflows/references/skills/kimi-astro-observation-report.md",
+      "path": "skills/kimi-astro-observation-report/SKILL.md"
+    },
+    {
+      "name": "kimi-audience-adaptive-comms",
+      "description": "當使用者請求為特定高階或技術利害關係人準備溝通內容（例如 CEO、VP、Tech Lead、營運主管），或要求產出高階簡報、領導層專用報告、專案狀態更新或跨團隊同步時觸發。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-audience-adaptive-comms.md",
+      "path": "skills/kimi-audience-adaptive-comms/SKILL.md"
+    },
+    {
+      "name": "kimi-auto-hypothesis-test",
+      "description": "當使用者詢問群組比較、顯著性、p 值或提及特定檢定（例如 t 檢定、ANOVA、卡方等）或上傳/描述資料要比較群組時即會觸發。技能會在收到分析目標與資料摘要後主動建議合適檢定。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-auto-hypothesis-test.md",
+      "path": "skills/kimi-auto-hypothesis-test/SKILL.md"
+    },
+    {
+      "name": "kimi-brand-guidelines",
+      "description": "當需要將 Anthropic 的品牌識別元素（色彩與 Poppins/Lora 字體）一致套用到介面或設計資產時啟動本技能。此技能會引導產出可程式化的色票與字體樣式範本以便整合至專案中。",
+      "category_id": "personal-pack-13-visual-design-illustration",
+      "category": "Visual Design Illustration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-13-visual-design-illustration/references/skills/kimi-brand-guidelines.md",
+      "path": "skills/kimi-brand-guidelines/SKILL.md"
+    },
+    {
+      "name": "kimi-campaign-plan",
+      "description": "當需要把市場目標轉化為可執行的宣傳活動計畫（例如產品上市、潛在客戶導流或品牌曝光）時呼叫此技能。它會產出含週別內容日曆、頻道策略與衡量指標的完整活動簡報供審核。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-campaign-plan.md",
+      "path": "skills/kimi-campaign-plan/SKILL.md"
+    },
+    {
+      "name": "kimi-canvas-design",
+      "description": "當使用者需要達到博物館或雜誌等級、注重工藝與可列印品質的視覺設計（輸出為 PNG 或 PDF）時觸發。提供尺寸、輸出用途與風格參考即可開始流程。",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/kimi-canvas-design.md",
+      "path": "skills/kimi-canvas-design/SKILL.md"
+    },
+    {
+      "name": "kimi-chart-image",
+      "description": "當使用者請求以圖表視覺化資料、繪製時間序列或為報告/儀表板產生圖像時觸發。此技能以無頭 Node.js 程式化流程產生出版級別的 PNG 圖檔。",
+      "category_id": "personal-pack-13-visual-design-illustration",
+      "category": "Visual Design Illustration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-13-visual-design-illustration/references/skills/kimi-chart-image.md",
+      "path": "skills/kimi-chart-image/SKILL.md"
+    },
+    {
+      "name": "kimi-churn-prevention",
+      "description": "當團隊要設計或優化取消訂閱流程、挽留優惠或失敗付款追繳時啟動此技能。輸入現有訂閱資料、取消原因樣本與付款失敗紀錄即可開始分析與設計。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-churn-prevention.md",
+      "path": "skills/kimi-churn-prevention/SKILL.md"
+    },
+    {
+      "name": "kimi-cite-style-converter",
+      "description": "當使用者請求將參考文獻在 APA、MLA、IEEE 與 Harvard 之間互換、檢查或修正格式，或提到其書目/引用清單時觸發。亦會在使用者上傳多條引用或要求批次處理時自動啟動。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-cite-style-converter.md",
+      "path": "skills/kimi-cite-style-converter/SKILL.md"
+    },
+    {
+      "name": "kimi-claude-api",
+      "description": "當需要設計或整合以 Claude 模型為核心的 API/SDK 功能時觸發。此技能產出可驗證的呼叫模式、串流策略與結構化輸出規格，方便代理重用與測試。",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/kimi-claude-api.md",
+      "path": "skills/kimi-claude-api/SKILL.md"
+    },
+    {
+      "name": "kimi-code-mentor",
+      "description": "當使用者表明想學習 Python 或 JavaScript、要求除錯、提交程式碼審查、索取演算法練習、準備面試題目或請求專案指導時觸發。也可在使用者提出具體功能實作或錯誤輸出時啟動。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-code-mentor.md",
+      "path": "skills/kimi-code-mentor/SKILL.md"
+    },
+    {
+      "name": "kimi-code-to-diagram",
+      "description": "當使用者請求將程式碼庫視覺化、檢視模組或相依性關係、或產生架構/流程/組織圖時觸發。本技能支援針對 Python、JavaScript/TypeScript、Go 與 Java 的原始碼解析，輸出 Mermaid 或 SVG 以供預覽與下載。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-code-to-diagram.md",
+      "path": "skills/kimi-code-to-diagram/SKILL.md"
+    },
+    {
+      "name": "kimi-code-vuln-audit",
+      "description": "當使用者提及安全掃描、漏洞檢測、祕密洩漏、API 金鑰、OWASP、npm audit 或 pip-audit 等關鍵字時觸發。適用於要求檢查原始碼或相依性安全性的情境。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-code-vuln-audit.md",
+      "path": "skills/kimi-code-vuln-audit/SKILL.md"
+    },
+    {
+      "name": "kimi-commodities-outlook",
+      "description": "當使用者請求商品市場展望、研究報告或交易想法，或使用關鍵字如「商品展望」「研究筆記」「價格驅動」等時觸發。代理也可在偵測到與能源、金屬或農產品相關的詢問時主動提出產出報告的選項。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-commodities-outlook.md",
+      "path": "skills/kimi-commodities-outlook/SKILL.md"
+    },
+    {
+      "name": "kimi-competitor-analysis",
+      "description": "當使用者要求檢視或比較競爭對手的搜尋可見性、關鍵字表現或區域化排名策略時啟動。常見觸發語句包含「分析競爭者」、「競爭性 SEO」、「誰在排名」或「為何他們較高」。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-competitor-analysis.md",
+      "path": "skills/kimi-competitor-analysis/SKILL.md"
+    },
+    {
+      "name": "kimi-content-research-writer",
+      "description": "當需要以研究為基礎撰寫或改寫內容，並希望在每個段落取得即時逐節回饋時啟動此技能。請提供寫作目標、目標讀者、語氣偏好及現有草稿或大綱以開始。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-content-research-writer.md",
+      "path": "skills/kimi-content-research-writer/SKILL.md"
+    },
+    {
+      "name": "kimi-conventional-commit-gen",
+      "description": "當使用者請求協助撰寫或生成符合 Conventional Commits 規範的 Git 提交訊息時觸發。亦會在對話中出現如 git commit、標準化提交、範圍偵測或「幫我寫提交訊息」等關鍵語句時啟動。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-conventional-commit-gen.md",
+      "path": "skills/kimi-conventional-commit-gen/SKILL.md"
+    },
+    {
+      "name": "kimi-copy-editing",
+      "description": "當使用者提供已有的行銷文案並要求改進、校對或優化措辭時觸發；例如表示想要「校稿」「潤飾」「讓文案更有說服力」等需求。此技能適用於保留原意、非從頭重寫的情況。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-copy-editing.md",
+      "path": "skills/kimi-copy-editing/SKILL.md"
+    },
+    {
+      "name": "kimi-copywriting",
+      "description": "當使用者要求為網站或行銷頁面撰寫、改寫或優化說服性文字時啟動此技能。適用於需要標題、價值主張、CTA 或英雄區等任何旨在提高轉換的頁面內容。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-copywriting.md",
+      "path": "skills/kimi-copywriting/SKILL.md"
+    },
+    {
+      "name": "kimi-correlation-auditor",
+      "description": "當使用者詢問變數間關聯、要求計算 Pearson 或 Spearman 相關係數、提出偏相關或混淆因子問題，或要求檢測可能的虛假相關時啟動此技能。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-correlation-auditor.md",
+      "path": "skills/kimi-correlation-auditor/SKILL.md"
+    },
+    {
+      "name": "kimi-cross-examine",
+      "description": "當使用者希望針對軟體計畫或設計的決策樹進行逐分支的壓力測試與問答式驗證時觸發。此技能會逐一盤問每個分支以揭露假設、風險並促成共同理解。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-cross-examine.md",
+      "path": "skills/kimi-cross-examine/SKILL.md"
+    },
+    {
+      "name": "kimi-cross-platform-adapter",
+      "description": "當使用者欲將現有文章、報告或公告改寫並跨貼到 LinkedIn、Twitter/X、微信公眾號、知乎或 Slack 等平台時觸發。支援中英互譯並自動考量各平台的語氣、字數與格式慣例。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-cross-platform-adapter.md",
+      "path": "skills/kimi-cross-platform-adapter/SKILL.md"
+    },
+    {
+      "name": "kimi-daily-report",
+      "description": "當使用者要求每日機構級情報簡報時觸發，需涵蓋地緣政治、宏觀政策、產業供應鏈與科技趨勢並輸出為專業報告。適用於需要結構化摘要、可驗證來源與決策建議的場景。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-daily-report.md",
+      "path": "skills/kimi-daily-report/SKILL.md"
+    },
+    {
+      "name": "kimi-data-viz-renderer",
+      "description": "當使用者請求將結構化JSON資料轉為圖表、資訊卡或儀表板輸出時觸發。此技能會接收資料與渲染偏好，回傳自包含的HTML/SVG檔案供嵌入或下載。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-data-viz-renderer.md",
+      "path": "skills/kimi-data-viz-renderer/SKILL.md"
+    },
+    {
+      "name": "kimi-database-scout",
+      "description": "當使用者請求探索或檢視 SQLite 或 PostgreSQL 資料庫、查閱資料表結構、產生 ER 圖或執行唯讀查詢時觸發。亦會在輸入含有關鍵字（如 schema、ER diagram、資料庫探索、SQL 查詢）時啟動。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-database-scout.md",
+      "path": "skills/kimi-database-scout/SKILL.md"
+    },
+    {
+      "name": "kimi-dataset-quality-audit",
+      "description": "當使用者要求檢查或剖析表格資料（CSV、Excel、TSV、JSON）之品質，如尋找缺值、重複、異常、格式或型別不一致時觸發。通常由使用者上傳檔案或指定資料來源後啟動審核程序。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-dataset-quality-audit.md",
+      "path": "skills/kimi-dataset-quality-audit/SKILL.md"
+    },
+    {
+      "name": "kimi-deep-module-refactor",
+      "description": "當想改善專案架構以提高可測試性、降低模組耦合或讓程式碼更容易由 AI 導覽時觸發。呼叫時請提供程式碼目錄位置、目標語言與現有測試狀態簡述。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-deep-module-refactor.md",
+      "path": "skills/kimi-deep-module-refactor/SKILL.md"
+    },
+    {
+      "name": "kimi-deep-research",
+      "description": "當使用者要求針對特定主題進行深入且可驗證的研究（例如政策分析、文獻回顧或事實查證）時啟動。輸入應包含研究主題、範圍、優先來源類型與完成時限。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-deep-research.md",
+      "path": "skills/kimi-deep-research/SKILL.md"
+    },
+    {
+      "name": "kimi-design-system-builder",
+      "description": "當使用者上傳 UI 截圖或 mockup，且希望從中萃取設計系統或取得實作導向的 UI 設計提示時觸發。用於建立與參考畫面一致的視覺與元件規範。",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/kimi-design-system-builder.md",
+      "path": "skills/kimi-design-system-builder/SKILL.md"
+    },
+    {
+      "name": "kimi-dev-guide-generator",
+      "description": "當使用者要求撰寫教學、建立設定指南、整理初學者步驟或使用「step-by-step」「快速上手」「how-to」等關鍵詞時觸發。也會回應需要從前置條件到速查表之完整教學的請求。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-dev-guide-generator.md",
+      "path": "skills/kimi-dev-guide-generator/SKILL.md"
+    },
+    {
+      "name": "kimi-discounted-cashflow-model",
+      "description": "當使用者要求對某家公司進行折現現金流（DCF）估值、計算或驗證折現率/WACC、評估自由現金流或要求成長率×折現率敏感度分析時即觸發此技能。常見觸發語句例如「對 X 公司做 DCF」、「跑估值」、「計算 WACC」或提到自由現金流/終值/敏感度矩陣的請求。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-discounted-cashflow-model.md",
+      "path": "skills/kimi-discounted-cashflow-model/SKILL.md"
+    },
+    {
+      "name": "kimi-doc-coauthoring",
+      "description": "當使用者需要與 AI 共同撰寫、改寫或優化文件，以系統化流程從脈絡建立到讀者驗證時觸發。",
+      "category_id": "personal-pack-10-documents-academic-workflows",
+      "category": "Documents Academic Workflows",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-10-documents-academic-workflows/references/skills/kimi-doc-coauthoring.md",
+      "path": "skills/kimi-doc-coauthoring/SKILL.md"
+    },
+    {
+      "name": "kimi-docx",
+      "description": "當使用者要求建立或修改 .docx 文件，並包含表格、圖像、頁首/頁尾或需追蹤變更時觸發。此觸發用於啟動驗證、組裝與匯出流程。",
+      "category_id": "personal-pack-10-documents-academic-workflows",
+      "category": "Documents Academic Workflows",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-10-documents-academic-workflows/references/skills/kimi-docx.md",
+      "path": "skills/kimi-docx/SKILL.md"
+    },
+    {
+      "name": "kimi-earnings-review-note",
+      "description": "當使用者要求對某家上市公司之季度或年度財報做回顧、整理earnings call重點、或要求beat/miss與財測差異分析時觸發。可由使用者口頭指示或上傳相關報表/逐字稿發起。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-earnings-review-note.md",
+      "path": "skills/kimi-earnings-review-note/SKILL.md"
+    },
+    {
+      "name": "kimi-ecom-listing-copywriter",
+      "description": "當使用者要求撰寫或改善商品的電商刊登文案（例如標題、賣點、詳述、規格或FAQ）並指定平台或風格時觸發。可同時提供商品資料、目標客群與競品範例以提高產出精準度。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-ecom-listing-copywriter.md",
+      "path": "skills/kimi-ecom-listing-copywriter/SKILL.md"
+    },
+    {
+      "name": "kimi-edge-tts",
+      "description": "當使用者要求將文字輸出為語音、指定特定語音、語言、語速、音調、格式或要求產生字幕時觸發。適用於需要朗讀內容以便多工、無障礙或聆聽場景的請求。",
+      "category_id": "personal-pack-14-video-audio-motion",
+      "category": "Video Audio Motion",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-14-video-audio-motion/references/skills/kimi-edge-tts.md",
+      "path": "skills/kimi-edge-tts/SKILL.md"
+    },
+    {
+      "name": "kimi-email-newsletter-builder",
+      "description": "當使用者需要為 Gmail 與 Outlook 建置相容的專業 HTML 電子報時觸發。請提供主旨、版型偏好、內容文字與圖片來源資訊以開始。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-email-newsletter-builder.md",
+      "path": "skills/kimi-email-newsletter-builder/SKILL.md"
+    },
+    {
+      "name": "kimi-email-to-calendar",
+      "description": "當使用者要求代理從郵件中擷取會議、活動或截止日期，或在對話中引用郵件內事件，或指示將郵件內容加入行事曆時啟動此技能。支援直接監控使用者授權的收件匣或處理使用者轉寄到指定地址的郵件。",
+      "category_id": "personal-pack-12-email-calendar-collaboration",
+      "category": "Email Calendar Collaboration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-12-email-calendar-collaboration/references/skills/kimi-email-to-calendar.md",
+      "path": "skills/kimi-email-to-calendar/SKILL.md"
+    },
+    {
+      "name": "kimi-equity-research",
+      "description": "當使用者以公司名稱、股票代碼或關鍵字要求進行公司/股票分析時觸發；若使用者輸入模糊或僅提供代碼，技能會先確認所需報告類型（簡要一頁或深度報告）。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-equity-research.md",
+      "path": "skills/kimi-equity-research/SKILL.md"
+    },
+    {
+      "name": "kimi-equity-research-report",
+      "description": "當使用者要求建立機構級投資研究報告（例如股票、債券、產業或ETF研究），並指定主題、時間範圍或輸出格式時觸發。此觸發會收集必要輸入並準備生成含封面、展品與揭露的可匯出檔案。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-equity-research-report.md",
+      "path": "skills/kimi-equity-research-report/SKILL.md"
+    },
+    {
+      "name": "kimi-fashion-sketch",
+      "description": "當使用者需要為單一系列或款式產出可交付給製造與採購的技術包時觸發，提供系列概念與每款基本資料即可開始。",
+      "category_id": "personal-pack-13-visual-design-illustration",
+      "category": "Visual Design Illustration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-13-visual-design-illustration/references/skills/kimi-fashion-sketch.md",
+      "path": "skills/kimi-fashion-sketch/SKILL.md"
+    },
+    {
+      "name": "kimi-financial-ratio-toolkit",
+      "description": "當使用者請求計算財務比率、要求杜邦（ROE）分解或輸入類似「分析這些財務報表」、「計算償債比率」等語句時啟動此技能。技能會在收到損益表、資產負債表或現金流量表後開始處理。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-financial-ratio-toolkit.md",
+      "path": "skills/kimi-financial-ratio-toolkit/SKILL.md"
+    },
+    {
+      "name": "kimi-financial-statement-analyzer",
+      "description": "當使用者要求針對損益表、資產負債表或現金流量表進行分析、比較年度/季度變動、找出紅旗或評估盈餘品質時啟動此技能。適用於提供報表原始數據（檔案或貼上表格）的情況。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-financial-statement-analyzer.md",
+      "path": "skills/kimi-financial-statement-analyzer/SKILL.md"
+    },
+    {
+      "name": "kimi-frontend-design",
+      "description": "當需要為網站或應用打造可直接交付工程團隊的生產等級前端介面，且希望避免通用的「AI 美學」時觸發此技能。請提供產品目標、目標使用者、品牌規範與現有介面資產（如有）。",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/kimi-frontend-design.md",
+      "path": "skills/kimi-frontend-design/SKILL.md"
+    },
+    {
+      "name": "kimi-gantt-planner",
+      "description": "當使用者要求建立甘特圖、排程任務或分析專案時間（例如提到里程碑、依賴關係或關鍵路徑）時觸發此技能。適合輸入任務清單、持續時間與相依關係以產生視覺化排程。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-gantt-planner.md",
+      "path": "skills/kimi-gantt-planner/SKILL.md"
+    },
+    {
+      "name": "kimi-geo-magazine-slides",
+      "description": "當使用者要把地理、旅遊或豪宅等地點題材製作成雜誌風格的投影片集時啟動，提供專案素材（標題、章節、照片、地理或統計數據）即可開始。此技能會產生編輯級排版建議並輸出可編輯的PPTX草案供審核。",
+      "category_id": "personal-pack-15-presentations-pitch-decks",
+      "category": "Presentations Pitch Decks",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-15-presentations-pitch-decks/references/skills/kimi-geo-magazine-slides.md",
+      "path": "skills/kimi-geo-magazine-slides/SKILL.md"
+    },
+    {
+      "name": "kimi-gitlab-cli-skills",
+      "description": "當使用者在對話中提到 GitLab CLI、glab 指令、或需要以終端機管理合併請求、議題、CI/CD、或倉庫操作時觸發。適用於尋求命令範例、步驟指引或自動化工作流程的情境。",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/kimi-gitlab-cli-skills.md",
+      "path": "skills/kimi-gitlab-cli-skills/SKILL.md"
+    },
+    {
+      "name": "kimi-html-mailer-builder",
+      "description": "當使用者需要一個可在主要郵件客戶端正常顯示的響應式HTML電子郵件範本時啟動此技能。輸入包含郵件類型、品牌設計與可變欄位等需求以生成模板。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-html-mailer-builder.md",
+      "path": "skills/kimi-html-mailer-builder/SKILL.md"
+    },
+    {
+      "name": "kimi-http-load-profiler",
+      "description": "當使用者要求「對這個 URL 做負載測試」、「為我的 API 做基準測試」、或詢問 p99 延遲、吞吐量飽和或容量規劃時觸發此技能。此觸發匹配涉及階梯式併發變化與性能拐點檢測的請求。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-http-load-profiler.md",
+      "path": "skills/kimi-http-load-profiler/SKILL.md"
+    },
+    {
+      "name": "kimi-humanizer",
+      "description": "當需要消除文章中機器產出痕跡並讓語氣更自然、更有人味時觸發。輸入欲處理的段落或文件並要求 humanizer 進行檢視與改寫建議。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-humanizer.md",
+      "path": "skills/kimi-humanizer/SKILL.md"
+    },
+    {
+      "name": "kimi-imap-smtp-email",
+      "description": "當使用者請求檢查郵件、閱讀或搜尋收件匣、標記訊息狀態、或要求發送郵件（包含附檔）時觸發。也在使用者提到 IMAP/SMTP 設定或同步問題時啟動。",
+      "category_id": "personal-pack-12-email-calendar-collaboration",
+      "category": "Email Calendar Collaboration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-12-email-calendar-collaboration/references/skills/kimi-imap-smtp-email.md",
+      "path": "skills/kimi-imap-smtp-email/SKILL.md"
+    },
+    {
+      "name": "kimi-incident-review-guide",
+      "description": "當使用者需要撰寫無責怪（blameless）的事故檢討或進行根本原因分析（RCA）時觸發；亦會在使用者提到 postmortem、incident report、root cause analysis 或 5 Whys 等關鍵字時主動提示此技能。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-incident-review-guide.md",
+      "path": "skills/kimi-incident-review-guide/SKILL.md"
+    },
+    {
+      "name": "kimi-internal-comms",
+      "description": "當需要建立或更新公司內部溝通文件（例如3P 更新、電子報、FAQ、或狀態報告）時，啟動此技能以自動化產出結構化範本與初稿。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-internal-comms.md",
+      "path": "skills/kimi-internal-comms/SKILL.md"
+    },
+    {
+      "name": "kimi-investor-letter-writer",
+      "description": "當使用者請求撰寫或分析投資備忘錄、交易備忘、IC 備忘或要求記錄公司/新創/主題的投資論點時觸發。此技能會產出可供審閱並最終匯出為 DOCX 或 PDF 的正式草稿。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-investor-letter-writer.md",
+      "path": "skills/kimi-investor-letter-writer/SKILL.md"
+    },
+    {
+      "name": "kimi-investor-pitch-planner",
+      "description": "當使用者表示需要為募資或投資人簡報準備內容、請求簡報架構或詢問如何說服投資人時觸發。可在提到 pitch deck、fundraising、投資簡報或準備募資相關問題時呼叫。",
+      "category_id": "personal-pack-15-presentations-pitch-decks",
+      "category": "Presentations Pitch Decks",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-15-presentations-pitch-decks/references/skills/kimi-investor-pitch-planner.md",
+      "path": "skills/kimi-investor-pitch-planner/SKILL.md"
+    },
+    {
+      "name": "kimi-journalistic-portrait",
+      "description": "當使用者要求產出具有中文週刊特寫風格的雜誌式 HTML 版面（例如封面、目錄或雙欄內頁）時觸發，用於生成可預覽的樣板與匯出包。",
+      "category_id": "personal-pack-10-documents-academic-workflows",
+      "category": "Documents Academic Workflows",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-10-documents-academic-workflows/references/skills/kimi-journalistic-portrait.md",
+      "path": "skills/kimi-journalistic-portrait/SKILL.md"
+    },
+    {
+      "name": "kimi-keynote-composer",
+      "description": "當使用者提到要撰寫演說、主題演講、開場致詞或使用類似「幫我寫演講」「要在晚會上發表」等語句時觸發。此技能會以問答方式收集要素並生成含演練提示與時長估計的講稿草案。",
+      "category_id": "personal-pack-15-presentations-pitch-decks",
+      "category": "Presentations Pitch Decks",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-15-presentations-pitch-decks/references/skills/kimi-keynote-composer.md",
+      "path": "skills/kimi-keynote-composer/SKILL.md"
+    },
+    {
+      "name": "kimi-kubectl",
+      "description": "當使用者需要以 kubectl 查詢或管理 Kubernetes 叢集（例如檢視 Pod、取得日誌、更新部署或診斷問題）時啟動本技能。適用於要求狀態檢查、除錯資訊或擬定與執行 kubectl 命令的情境。",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/kimi-kubectl.md",
+      "path": "skills/kimi-kubectl/SKILL.md"
+    },
+    {
+      "name": "kimi-landing-page-scaffold",
+      "description": "當使用者請求建立、產生或搭建著陸頁、線框或行銷頁原型，或明確提到 hero、pricing、CTA、social proof 等區塊時觸發。通常以「建立著陸頁」、「scaffold landing page」或列出所需區塊的指令呼叫。",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/kimi-landing-page-scaffold.md",
+      "path": "skills/kimi-landing-page-scaffold/SKILL.md"
+    },
+    {
+      "name": "kimi-localization-toolkit",
+      "description": "當需要在 React/TypeScript 專案中建立、審核或強制執行 UI 本地化（i18n）流程，或想把硬編碼字串轉成 locale 資源時使用此技能。適用於以 i18next 或 JSON locale 檔為基礎的多語環境，特別檢查 en-US 與 zh-CN 覆蓋情況。",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/kimi-localization-toolkit.md",
+      "path": "skills/kimi-localization-toolkit/SKILL.md"
+    },
+    {
+      "name": "kimi-log-error-digest",
+      "description": "當使用者上傳或指定日誌檔案（JSON、syslog、Nginx）以尋求錯誤診斷時觸發。此技能用於快速萃取錯誤群集、頻率與時序分佈以供進一步分析。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-log-error-digest.md",
+      "path": "skills/kimi-log-error-digest/SKILL.md"
+    },
+    {
+      "name": "kimi-market-research-brief",
+      "description": "當使用者請求針對特定市場、產業、競爭者或消費者行為的專業諮詢式分析與策略建議時觸發。適用於需要結構化、以證據為基礎之市場洞察與決策支援的情境。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-market-research-brief.md",
+      "path": "skills/kimi-market-research-brief/SKILL.md"
+    },
+    {
+      "name": "kimi-mcp-builder",
+      "description": "當需要從調研到評估，系統性建置一個 MCP 伺服器（包含設計、實作、測試與評估）時觸發。此技能生成可重現的建置步驟、測試指標與評估報告，供代理人執行或交付給工程團隊。",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/kimi-mcp-builder.md",
+      "path": "skills/kimi-mcp-builder/SKILL.md"
+    },
+    {
+      "name": "kimi-md-to-pdf",
+      "description": "當使用者要把 Markdown (.md) 文件輸出為可分享或列印的 PDF 時觸發。此技能負責處理檔案驗證、樣式套用、預覽與最終匯出流程。",
+      "category_id": "personal-pack-10-documents-academic-workflows",
+      "category": "Documents Academic Workflows",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-10-documents-academic-workflows/references/skills/kimi-md-to-pdf.md",
+      "path": "skills/kimi-md-to-pdf/SKILL.md"
+    },
+    {
+      "name": "kimi-okr-strategist",
+      "description": "當使用者提到 OKR、目標管理、關鍵結果、草擬、拆解、回顧、檢討、對齊或季度目標，或請求撰寫、檢閱或分解 OKR 時啟動。本技能偵測到上述任一相關需求即可提供結構化支援。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-okr-strategist.md",
+      "path": "skills/kimi-okr-strategist/SKILL.md"
+    },
+    {
+      "name": "kimi-pdf",
+      "description": "當使用者要求建立、編輯或處理 PDF 檔案，或明確要求 .tex / LaTeX 編譯時啟動此技能。此技能支援以 HTML+Paged.js 產生版面或以 Python 操作既有 PDF。",
+      "category_id": "personal-pack-10-documents-academic-workflows",
+      "category": "Documents Academic Workflows",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-10-documents-academic-workflows/references/skills/kimi-pdf.md",
+      "path": "skills/kimi-pdf/SKILL.md"
+    },
+    {
+      "name": "kimi-photo-magazine",
+      "description": "當使用者要求以雜誌級編排將照片、文字與資料整合為可導航的報告或企劃書時觸發。適用於需要多欄版面、全版攝影與資料卡的企業、研究或創意提案。",
+      "category_id": "personal-pack-13-visual-design-illustration",
+      "category": "Visual Design Illustration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-13-visual-design-illustration/references/skills/kimi-photo-magazine.md",
+      "path": "skills/kimi-photo-magazine/SKILL.md"
+    },
+    {
+      "name": "kimi-pipeline-blueprint",
+      "description": "提供「pipeline-blueprint」類型任務的專門協助。適用於使用者明確提及 pipeline-blueprint，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-pipeline-blueprint.md",
+      "path": "skills/kimi-pipeline-blueprint/SKILL.md"
+    },
+    {
+      "name": "kimi-pitch-deck-creator",
+      "description": "提供「pitch-deck-creator」類型任務的專門協助。適用於使用者明確提及 pitch-deck-creator，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-15-presentations-pitch-decks",
+      "category": "Presentations Pitch Decks",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-15-presentations-pitch-decks/references/skills/kimi-pitch-deck-creator.md",
+      "path": "skills/kimi-pitch-deck-creator/SKILL.md"
+    },
+    {
+      "name": "kimi-podcast-episode-writer",
+      "description": "提供「podcast-episode-writer」類型任務的專門協助。適用於使用者明確提及 podcast-episode-writer，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-14-video-audio-motion",
+      "category": "Video Audio Motion",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-14-video-audio-motion/references/skills/kimi-podcast-episode-writer.md",
+      "path": "skills/kimi-podcast-episode-writer/SKILL.md"
+    },
+    {
+      "name": "kimi-pptx",
+      "description": "提供「pptx」類型任務的專門協助。適用於使用者明確提及 pptx，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-15-presentations-pitch-decks",
+      "category": "Presentations Pitch Decks",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-15-presentations-pitch-decks/references/skills/kimi-pptx.md",
+      "path": "skills/kimi-pptx/SKILL.md"
+    },
+    {
+      "name": "kimi-pricing-strategy",
+      "description": "提供「pricing-strategy」類型任務的專門協助。適用於使用者明確提及 pricing-strategy，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-pricing-strategy.md",
+      "path": "skills/kimi-pricing-strategy/SKILL.md"
+    },
+    {
+      "name": "kimi-process-doc",
+      "description": "提供「process-doc」類型任務的專門協助。適用於使用者明確提及 process-doc，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-10-documents-academic-workflows",
+      "category": "Documents Academic Workflows",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-10-documents-academic-workflows/references/skills/kimi-process-doc.md",
+      "path": "skills/kimi-process-doc/SKILL.md"
+    },
+    {
+      "name": "kimi-product-spec-writer",
+      "description": "提供「product-spec-writer」類型任務的專門協助。適用於使用者明確提及 product-spec-writer，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-product-spec-writer.md",
+      "path": "skills/kimi-product-spec-writer/SKILL.md"
+    },
+    {
+      "name": "kimi-professional-email-composer",
+      "description": "提供「professional-email-composer」類型任務的專門協助。適用於使用者明確提及 professional-email-composer，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-professional-email-composer.md",
+      "path": "skills/kimi-professional-email-composer/SKILL.md"
+    },
+    {
+      "name": "kimi-project-sizing-guide",
+      "description": "提供「project-sizing-guide」類型任務的專門協助。適用於使用者明確提及 project-sizing-guide，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-project-sizing-guide.md",
+      "path": "skills/kimi-project-sizing-guide/SKILL.md"
+    },
+    {
+      "name": "kimi-quick-strategy-backtest",
+      "description": "提供「quick-strategy-backtest」類型任務的專門協助。適用於使用者明確提及 quick-strategy-backtest，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-quick-strategy-backtest.md",
+      "path": "skills/kimi-quick-strategy-backtest/SKILL.md"
+    },
+    {
+      "name": "kimi-regression-modeler",
+      "description": "提供「regression-modeler」類型任務的專門協助。適用於使用者明確提及 regression-modeler，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-regression-modeler.md",
+      "path": "skills/kimi-regression-modeler/SKILL.md"
+    },
+    {
+      "name": "kimi-regulatory-audit-generator",
+      "description": "提供「regulatory-audit-generator」類型任務的專門協助。適用於使用者明確提及 regulatory-audit-generator，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-regulatory-audit-generator.md",
+      "path": "skills/kimi-regulatory-audit-generator/SKILL.md"
+    },
+    {
+      "name": "kimi-repo-audit",
+      "description": "提供「repo-audit」類型任務的專門協助。適用於使用者明確提及 repo-audit，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-repo-audit.md",
+      "path": "skills/kimi-repo-audit/SKILL.md"
+    },
+    {
+      "name": "kimi-retro-tech-illustration",
+      "description": "提供「retro-tech-illustration」類型任務的專門協助。適用於使用者明確提及 retro-tech-illustration，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-13-visual-design-illustration",
+      "category": "Visual Design Illustration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-13-visual-design-illustration/references/skills/kimi-retro-tech-illustration.md",
+      "path": "skills/kimi-retro-tech-illustration/SKILL.md"
+    },
+    {
+      "name": "kimi-route-to-openapi",
+      "description": "提供「route-to-openapi」類型任務的專門協助。適用於使用者明確提及 route-to-openapi，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/kimi-route-to-openapi.md",
+      "path": "skills/kimi-route-to-openapi/SKILL.md"
+    },
+    {
+      "name": "kimi-scholarly-writing-refiner",
+      "description": "提供「scholarly-writing-refiner」類型任務的專門協助。適用於使用者明確提及 scholarly-writing-refiner，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-scholarly-writing-refiner.md",
+      "path": "skills/kimi-scholarly-writing-refiner/SKILL.md"
+    },
+    {
+      "name": "kimi-sci-paper",
+      "description": "提供「sci-paper」類型任務的專門協助。適用於使用者明確提及 sci-paper，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-sci-paper.md",
+      "path": "skills/kimi-sci-paper/SKILL.md"
+    },
+    {
+      "name": "kimi-secure-code-review",
+      "description": "提供「secure-code-review」類型任務的專門協助。適用於使用者明確提及 secure-code-review，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-secure-code-review.md",
+      "path": "skills/kimi-secure-code-review/SKILL.md"
+    },
+    {
+      "name": "kimi-seo-audit",
+      "description": "提供「seo-audit」類型任務的專門協助。適用於使用者明確提及 seo-audit，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-seo-audit.md",
+      "path": "skills/kimi-seo-audit/SKILL.md"
+    },
+    {
+      "name": "kimi-seo-content-writer",
+      "description": "提供「seo-content-writer」類型任務的專門協助。適用於使用者明確提及 seo-content-writer，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-seo-content-writer.md",
+      "path": "skills/kimi-seo-content-writer/SKILL.md"
+    },
+    {
+      "name": "kimi-skill-creator",
+      "description": "提供「skill-creator」類型任務的專門協助。適用於使用者明確提及 skill-creator，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-01-agent-mcp-integrations",
+      "category": "Agent Mcp Integrations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-01-agent-mcp-integrations/references/skills/kimi-skill-creator.md",
+      "path": "skills/kimi-skill-creator/SKILL.md"
+    },
+    {
+      "name": "kimi-slack-gif-creator",
+      "description": "提供「slack-gif-creator」類型任務的專門協助。適用於使用者明確提及 slack-gif-creator，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-14-video-audio-motion",
+      "category": "Video Audio Motion",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-14-video-audio-motion/references/skills/kimi-slack-gif-creator.md",
+      "path": "skills/kimi-slack-gif-creator/SKILL.md"
+    },
+    {
+      "name": "kimi-sprint-plan-builder",
+      "description": "提供「sprint-plan-builder」類型任務的專門協助。適用於使用者明確提及 sprint-plan-builder，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-sprint-plan-builder.md",
+      "path": "skills/kimi-sprint-plan-builder/SKILL.md"
+    },
+    {
+      "name": "kimi-sql-insight",
+      "description": "提供「sql-insight」類型任務的專門協助。適用於使用者明確提及 sql-insight，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-sql-insight.md",
+      "path": "skills/kimi-sql-insight/SKILL.md"
+    },
+    {
+      "name": "kimi-stock-research-report",
+      "description": "提供「stock-research-report」類型任務的專門協助。適用於使用者明確提及 stock-research-report，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-stock-research-report.md",
+      "path": "skills/kimi-stock-research-report/SKILL.md"
+    },
+    {
+      "name": "kimi-stock-signal-analyzer",
+      "description": "提供「stock-signal-analyzer」類型任務的專門協助。適用於使用者明確提及 stock-signal-analyzer，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-stock-signal-analyzer.md",
+      "path": "skills/kimi-stock-signal-analyzer/SKILL.md"
+    },
+    {
+      "name": "kimi-story-map-builder",
+      "description": "提供「story-map-builder」類型任務的專門協助。適用於使用者明確提及 story-map-builder，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-11-project-product-operations",
+      "category": "Project Product Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-11-project-product-operations/references/skills/kimi-story-map-builder.md",
+      "path": "skills/kimi-story-map-builder/SKILL.md"
+    },
+    {
+      "name": "kimi-structured-minutes",
+      "description": "提供「structured-minutes」類型任務的專門協助。適用於使用者明確提及 structured-minutes，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-10-documents-academic-workflows",
+      "category": "Documents Academic Workflows",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-10-documents-academic-workflows/references/skills/kimi-structured-minutes.md",
+      "path": "skills/kimi-structured-minutes/SKILL.md"
+    },
+    {
+      "name": "kimi-sun-path",
+      "description": "提供「sun-path」類型任務的專門協助。適用於使用者明確提及 sun-path，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-13-visual-design-illustration",
+      "category": "Visual Design Illustration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-13-visual-design-illustration/references/skills/kimi-sun-path.md",
+      "path": "skills/kimi-sun-path/SKILL.md"
+    },
+    {
+      "name": "kimi-support-response-writer",
+      "description": "提供「support-response-writer」類型任務的專門協助。適用於使用者明確提及 support-response-writer，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-support-response-writer.md",
+      "path": "skills/kimi-support-response-writer/SKILL.md"
+    },
+    {
+      "name": "kimi-terraform-deploy-pitfalls",
+      "description": "提供「terraform-deploy-pitfalls」類型任務的專門協助。適用於使用者明確提及 terraform-deploy-pitfalls，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/kimi-terraform-deploy-pitfalls.md",
+      "path": "skills/kimi-terraform-deploy-pitfalls/SKILL.md"
+    },
+    {
+      "name": "kimi-test-driven-dev",
+      "description": "提供「test-driven-dev」類型任務的專門協助。適用於使用者明確提及 test-driven-dev，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-test-driven-dev.md",
+      "path": "skills/kimi-test-driven-dev/SKILL.md"
+    },
+    {
+      "name": "kimi-test-suite-architect",
+      "description": "提供「test-suite-architect」類型任務的專門協助。適用於使用者明確提及 test-suite-architect，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-test-suite-architect.md",
+      "path": "skills/kimi-test-suite-architect/SKILL.md"
+    },
+    {
+      "name": "kimi-theme-factory",
+      "description": "提供「theme-factory」類型任務的專門協助。適用於使用者明確提及 theme-factory，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-02-ai-product-ui-design",
+      "category": "Ai Product Ui Design",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-02-ai-product-ui-design/references/skills/kimi-theme-factory.md",
+      "path": "skills/kimi-theme-factory/SKILL.md"
+    },
+    {
+      "name": "kimi-timeline-builder",
+      "description": "提供「timeline-builder」類型任務的專門協助。適用於使用者明確提及 timeline-builder，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-14-video-audio-motion",
+      "category": "Video Audio Motion",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-14-video-audio-motion/references/skills/kimi-timeline-builder.md",
+      "path": "skills/kimi-timeline-builder/SKILL.md"
+    },
+    {
+      "name": "kimi-translation-craft",
+      "description": "提供「translation-craft」類型任務的專門協助。適用於使用者明確提及 translation-craft，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-08-seo-content-publishing",
+      "category": "Seo Content Publishing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-08-seo-content-publishing/references/skills/kimi-translation-craft.md",
+      "path": "skills/kimi-translation-craft/SKILL.md"
+    },
+    {
+      "name": "kimi-value-investing-scorecard",
+      "description": "提供「value-investing-scorecard」類型任務的專門協助。適用於使用者明確提及 value-investing-scorecard，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-value-investing-scorecard.md",
+      "path": "skills/kimi-value-investing-scorecard/SKILL.md"
+    },
+    {
+      "name": "kimi-vc-industry-research",
+      "description": "提供「vc-industry-research」類型任務的專門協助。適用於使用者明確提及 vc-industry-research，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-06-finance-investing",
+      "category": "Finance Investing",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-06-finance-investing/references/skills/kimi-vc-industry-research.md",
+      "path": "skills/kimi-vc-industry-research/SKILL.md"
+    },
+    {
+      "name": "kimi-video-quality-diff",
+      "description": "提供「video-quality-diff」類型任務的專門協助。適用於使用者明確提及 video-quality-diff，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-14-video-audio-motion",
+      "category": "Video Audio Motion",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-14-video-audio-motion/references/skills/kimi-video-quality-diff.md",
+      "path": "skills/kimi-video-quality-diff/SKILL.md"
+    },
+    {
+      "name": "kimi-web-artifacts-builder",
+      "description": "提供「web-artifacts-builder」類型任務的專門協助。適用於使用者明確提及 web-artifacts-builder，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/kimi-web-artifacts-builder.md",
+      "path": "skills/kimi-web-artifacts-builder/SKILL.md"
+    },
+    {
+      "name": "kimi-webapp-testing",
+      "description": "提供「webapp-testing」類型任務的專門協助。適用於使用者明確提及 webapp-testing，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/kimi-webapp-testing.md",
+      "path": "skills/kimi-webapp-testing/SKILL.md"
+    },
+    {
+      "name": "kimi-weighted-scorer",
+      "description": "提供「weighted-scorer」類型任務的專門協助。適用於使用者明確提及 weighted-scorer，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-weighted-scorer.md",
+      "path": "skills/kimi-weighted-scorer/SKILL.md"
+    },
+    {
+      "name": "kimi-whatsapp-integration",
+      "description": "提供「whatsapp-integration」類型任務的專門協助。適用於使用者明確提及 whatsapp-integration，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-12-email-calendar-collaboration",
+      "category": "Email Calendar Collaboration",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-12-email-calendar-collaboration/references/skills/kimi-whatsapp-integration.md",
+      "path": "skills/kimi-whatsapp-integration/SKILL.md"
+    },
+    {
+      "name": "kimi-work-recap-writer",
+      "description": "提供「work-recap-writer」類型任務的專門協助。適用於使用者明確提及 work-recap-writer，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-work-recap-writer.md",
+      "path": "skills/kimi-work-recap-writer/SKILL.md"
+    },
+    {
+      "name": "kimi-x-thread-crafter",
+      "description": "提供「x-thread-crafter」類型任務的專門協助。適用於使用者明確提及 x-thread-crafter，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-09-marketing-commerce-communications",
+      "category": "Marketing Commerce Communications",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-09-marketing-commerce-communications/references/skills/kimi-x-thread-crafter.md",
+      "path": "skills/kimi-x-thread-crafter/SKILL.md"
+    },
+    {
+      "name": "kimi-xlsx",
+      "description": "提供「xlsx」類型任務的專門協助。適用於使用者明確提及 xlsx，或描述同類工作目標、輸入與交付需求時。",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/kimi-xlsx.md",
+      "path": "skills/kimi-xlsx/SKILL.md"
+    },
+    {
+      "name": "manus-config",
+      "description": "Manage connectors (App, Custom API, Custom MCP), project instructions and shared files, and scheduled task execution with manus-config. Use when the user asks to enable, inspect, or modify integrations; create a new connector from an MCP server URL/command or an API key the user provides; inspect, update, or delete the user's own custom connectors; manage project-level configuration or shared project files; explicitly add, update, or remove shared project web links; or create, update, inspect, pause, expire, or troubleshoot scheduled tasks using cron, intervals, connector UIDs, or run-as-new behavior.",
+      "category_id": "personal-pack-16-automation-operations",
+      "category": "Automation Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-16-automation-operations/references/skills/manus-config.md",
+      "path": "skills/manus-config/SKILL.md"
+    },
+    {
+      "name": "openai-computer-use",
+      "description": "Safely inspect and operate graphical user interfaces, web browsers, and desktop-style workflows through available computer-control tools. Use when a task requires visual UI interaction, form completion, GUI-only verification, cross-application workflows, or reproducing an issue that cannot be completed reliably through files, APIs, command output, or a structured integration.",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/openai-computer-use.md",
+      "path": "skills/openai-computer-use/SKILL.md"
+    },
+    {
+      "name": "persistent-computing",
+      "description": "MUST read when user needs to run persistent services that WebDev or the default sandbox may not support (automation scripts, game servers, self-hosted open-source apps), or requires Docker, fixed IP, background jobs, heavy compute, or a reusable environment across sessions. MUST also read before develop/deploy any service on an attached persistent VM (Cloud Computer). Guides persistent computing solutions vs sandbox vs WebDev.",
+      "category_id": "personal-pack-16-automation-operations",
+      "category": "Automation Operations",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-16-automation-operations/references/skills/persistent-computing.md",
+      "path": "skills/persistent-computing/SKILL.md"
+    },
+    {
+      "name": "read-special-images",
+      "description": "Read and OCR unusually tall, wide, high-resolution, or text-dense images without hallucinating content lost to inline vision scaling. Use for long screenshots, panoramic images, large diagrams, dense documents, tiny unreadable text, or any image whose whole-image preview is not reliable; keep ordinary readable images unsplit.",
+      "category_id": "personal-pack-04-software-engineering-security",
+      "category": "Software Engineering Security",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-04-software-engineering-security/references/skills/read-special-images.md",
+      "path": "skills/read-special-images/SKILL.md"
+    },
+    {
+      "name": "research-content-writing",
+      "description": "Research, outline, draft, and refine evidence-led written content. Use when creating articles, technical explainers, case studies, launch posts, newsletters, educational materials, or any content that needs source verification, citations, and editorial review.",
+      "category_id": "personal-pack-05-data-research-analytics",
+      "category": "Data Research Analytics",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-05-data-research-analytics/references/skills/research-content-writing.md",
+      "path": "skills/research-content-writing/SKILL.md"
+    },
+    {
+      "name": "webdev-custom-dockerfile",
+      "description": "Manus webdev fullstack (web-db-user) projects — the deploy contract for a custom root Dockerfile (build context, secrets injection, build budget, runtime limits, base-image choice, worked examples). Read BEFORE writing or editing a Dockerfile; needed only when production requires an extra system binary (ffmpeg, chromium, fonts...) or another language runtime (Python, Ruby, Java, Go...).",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-custom-dockerfile.md",
+      "path": "skills/webdev-custom-dockerfile/SKILL.md"
+    },
+    {
+      "name": "webdev-data-api",
+      "description": "Manus webdev fullstack (web-db-user) & mobile-app (Expo) projects — fetching external data via the Manus API Hub.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-data-api.md",
+      "path": "skills/webdev-data-api/SKILL.md"
+    },
+    {
+      "name": "webdev-file-storage",
+      "description": "Manus webdev fullstack (web-db-user) & mobile-app (Expo) projects — uploading and serving user files, images, documents via the built-in S3 storage helpers.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-file-storage.md",
+      "path": "skills/webdev-file-storage/SKILL.md"
+    },
+    {
+      "name": "webdev-image-generation",
+      "description": "Manus webdev fullstack (web-db-user) & mobile-app (Expo) projects — AI image creation or editing, model listing/selection.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-image-generation.md",
+      "path": "skills/webdev-image-generation/SKILL.md"
+    },
+    {
+      "name": "webdev-llm-integration",
+      "description": "Manus webdev fullstack (web-db-user) & mobile-app (Expo) projects — built-in LLM integration for AI features, chat completions, structured JSON responses, model listing/selection, streaming, thinking/reasoning.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-llm-integration.md",
+      "path": "skills/webdev-llm-integration/SKILL.md"
+    },
+    {
+      "name": "webdev-manus-oauth",
+      "description": "Manus webdev fullstack (web-db-user) projects — Manus OAuth redirect URL handling, invite and magic links.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-manus-oauth.md",
+      "path": "skills/webdev-manus-oauth/SKILL.md"
+    },
+    {
+      "name": "webdev-maps-integration",
+      "description": "Manus webdev fullstack (web-db-user) projects — Google Maps integration for maps, geocoding, directions, places.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-maps-integration.md",
+      "path": "skills/webdev-maps-integration/SKILL.md"
+    },
+    {
+      "name": "webdev-owner-notifications",
+      "description": "Manus webdev fullstack (web-db-user) & mobile-app (Expo) projects — pushing alert notifications to the project owner.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-owner-notifications.md",
+      "path": "skills/webdev-owner-notifications/SKILL.md"
+    },
+    {
+      "name": "webdev-periodic-updates",
+      "description": "Manus webdev fullstack (web-db-user) & mobile-app (Expo) projects — scheduled work reference (Heartbeat) for recurring jobs, daily/hourly tasks, end-user-scheduled cron, periodic notifications. Read FIRST before planning or coding anything that runs on a schedule.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-periodic-updates.md",
+      "path": "skills/webdev-periodic-updates/SKILL.md"
+    },
+    {
+      "name": "webdev-readme-fullstack",
+      "description": "Manus webdev fullstack (web-db-user) projects — the complete development guide for the template that fullstack webdev projects are built on. Covers what ships out of the box (user auth, database, file storage, backend API, external integrations), coding conventions, file layout, and the map of per-integration skill docs. The same guide arrives auto-injected in webdev_init_project / webdev_add_feature results.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-readme-fullstack.md",
+      "path": "skills/webdev-readme-fullstack/SKILL.md"
+    },
+    {
+      "name": "webdev-readme-mobile",
+      "description": "Manus webdev mobile-app (Expo) projects — the complete development guide for the Expo template that mobile-app projects are built on. Covers what ships out of the box, Expo conventions, design and branding rules, file layout, and where the backend guide lives. The same guide arrives auto-injected in webdev_init_project / webdev_add_feature results.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-readme-mobile.md",
+      "path": "skills/webdev-readme-mobile/SKILL.md"
+    },
+    {
+      "name": "webdev-readme-mobile-backend",
+      "description": "Manus webdev mobile-app (Expo) projects — backend development guide (Manus auth, database/Drizzle, tRPC API, env, testing, integrations). MUST read BEFORE using any backend/server/database features in a mobile-app project.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-readme-mobile-backend.md",
+      "path": "skills/webdev-readme-mobile-backend/SKILL.md"
+    },
+    {
+      "name": "webdev-readme-static",
+      "description": "Manus webdev static (web-static) projects — the complete development guide for the template that static webdev sites are built on. Covers what ships out of the box, coding conventions, and file layout. The same guide arrives auto-injected in webdev_init_project / webdev_add_feature results.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-readme-static.md",
+      "path": "skills/webdev-readme-static/SKILL.md"
+    },
+    {
+      "name": "webdev-ssr-conversion",
+      "description": "Convert a client-only React 19 + Vite + Express + tRPC 11 SPA (the Manus \"web-db-user\" full-stack template) into a Server-Side Rendered (SSR) app so crawlers and social scrapers receive fully-populated first-paint HTML with correct per-route title and meta tags. Use when a project built on this template needs SEO, link-preview cards, or crawler-visible content, or when asked to \"make the site SSR\", \"server-render\", \"fix SEO / prerender\", or \"make Googlebot see the content\". Only for projects built on this template (wouter + @trpc/react-query + superjson, Express entry at server/_core). Do NOT use for Next.js/Remix/Astro apps, apps that already render on the server, or general SEO questions unrelated to this template.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-ssr-conversion.md",
+      "path": "skills/webdev-ssr-conversion/SKILL.md"
+    },
+    {
+      "name": "webdev-voice-transcription",
+      "description": "Manus webdev fullstack (web-db-user) & mobile-app (Expo) projects — speech-to-text via the built-in Whisper API.",
+      "category_id": "personal-pack-03-cloud-web-platform",
+      "category": "Cloud Web Platform",
+      "status": "recovered-metadata-only",
+      "source": "personal-pack-03-cloud-web-platform/references/skills/webdev-voice-transcription.md",
+      "path": "skills/webdev-voice-transcription/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-08-19",
+  "categories": [
+    {
+      "id": "personal-pack-01-agent-mcp-integrations",
+      "title": "Agent Mcp Integrations",
+      "skill_count": 10
+    },
+    {
+      "id": "personal-pack-02-ai-product-ui-design",
+      "title": "Ai Product Ui Design",
+      "skill_count": 11
+    },
+    {
+      "id": "personal-pack-03-cloud-web-platform",
+      "title": "Cloud Web Platform",
+      "skill_count": 26
+    },
+    {
+      "id": "personal-pack-04-software-engineering-security",
+      "title": "Software Engineering Security",
+      "skill_count": 14
+    },
+    {
+      "id": "personal-pack-05-data-research-analytics",
+      "title": "Data Research Analytics",
+      "skill_count": 14
+    },
+    {
+      "id": "personal-pack-06-finance-investing",
+      "title": "Finance Investing",
+      "skill_count": 13
+    },
+    {
+      "id": "personal-pack-07-hr-people-operations",
+      "title": "Hr People Operations",
+      "skill_count": 30
+    },
+    {
+      "id": "personal-pack-08-seo-content-publishing",
+      "title": "Seo Content Publishing",
+      "skill_count": 13
+    },
+    {
+      "id": "personal-pack-09-marketing-commerce-communications",
+      "title": "Marketing Commerce Communications",
+      "skill_count": 14
+    },
+    {
+      "id": "personal-pack-10-documents-academic-workflows",
+      "title": "Documents Academic Workflows",
+      "skill_count": 8
+    },
+    {
+      "id": "personal-pack-11-project-product-operations",
+      "title": "Project Product Operations",
+      "skill_count": 11
+    },
+    {
+      "id": "personal-pack-12-email-calendar-collaboration",
+      "title": "Email Calendar Collaboration",
+      "skill_count": 3
+    },
+    {
+      "id": "personal-pack-13-visual-design-illustration",
+      "title": "Visual Design Illustration",
+      "skill_count": 6
+    },
+    {
+      "id": "personal-pack-14-video-audio-motion",
+      "title": "Video Audio Motion",
+      "skill_count": 5
+    },
+    {
+      "id": "personal-pack-15-presentations-pitch-decks",
+      "title": "Presentations Pitch Decks",
+      "skill_count": 5
+    },
+    {
+      "id": "personal-pack-16-automation-operations",
+      "title": "Automation Operations",
+      "skill_count": 3
+    }
+  ]
+}
